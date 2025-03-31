@@ -1,0 +1,1 @@
+import{L as t}from"./index-DIgI07t-.js";const n=t(),e=()=>n.statusBarHeight||15,i=()=>{if(uni.getMenuButtonBoundingClientRect){const{top:t,height:n}=uni.getMenuButtonBoundingClientRect();return 2*(t-e())+n}return 50},u=()=>e()+i();export{i as a,u as b,e as g};
